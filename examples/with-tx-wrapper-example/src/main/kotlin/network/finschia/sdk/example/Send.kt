@@ -5,6 +5,7 @@ import network.finschia.sdk.account.HDWallet
 import network.finschia.sdk.base.Tx
 
 suspend fun main() {
+    //
     val port = 9090
     val channel = ManagedChannelBuilder.forAddress("localhost", port).usePlaintext().build()
 
